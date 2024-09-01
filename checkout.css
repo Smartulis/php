@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .cart-items {
+    display: grid; /* Use grid to layout items */
+    grid-template-columns: 1fr; /* Each item will take one fraction of the available space */
+    gap: 20px; /* Add some spacing between cart items */
+    width: 100%; /* Set the width to use full container width */
+    margin: 0 auto; /* This will center your grid within the container if it's smaller than the container width */
+  }
+  
+  .container {
+    flex: 1; /* Take up all available space */
+    display: flex;
+    flex-direction: column; /* Stack the children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    padding: 20px; /* Add some padding */
+    margin-top: 70px; /* Adjust this value to account for the height of the navbar */
+    margin-bottom: 70px; /* Adjust this value to account for the height of the footer */
+    width: 100%; /* Set the width as needed, 100% means full width */
+  }
+  
+  
+  .address-form{
+  margin-top:10%;
+  }
+  
+  .krepselis {
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    
+  }
+  
+  
+  
+  .cart-item {
+    
+    text-align: center;
+  }
+  
+  .cart-total {
+    margin-top: 20px; /* Add some spacing between cart items and total price */
+  }
+  
+  .cartkrep {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .shopping-cart-icon {
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .shop-button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  .shop-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #3A3F41;
+    color:white;
+    padding: 10px;
+    text-align: center;
+  }

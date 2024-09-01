@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f7f7f7;
+  }
+  .navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  body {
+    background-image: url('assets/setup.png');
+    background-size: cover;
+}
+
+  .search-container {
+    margin-top:10%;
+    padding:5%;
+    color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.86);
+}
+  .search-box {
+  margin-top:10%;
+  }
+  .search-box input[type="text"] {
+    padding: 30px;
+    margin-right: -4px; /* Adjust if there is a gap between input and button */
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .search-box input[type="submit"] {
+    padding: 30px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #3A3F41;
+    color:white;
+    padding: 10px;
+    text-align: center;
+  }

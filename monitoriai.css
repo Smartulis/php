@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  .navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:35%;
+  }
+  .category-tabs {
+    text-align: center; /* Centers the tabs */
+    margin-top: 4%; /* Space below the tabs */
+  }
+  
+  .category-tabs ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+  }
+  
+  .category-tabs ul li {
+    display: inline-block; /* Aligns the list items in a row */
+    margin-right: 20px; /* Space between the list items */
+  }
+  
+  .category-tabs ul li:last-child {
+    margin-right: 0; /* Removes the margin from the last item */
+  }
+  
+  .category-tabs ul li a {
+    text-decoration: none; /* Removes the underline from links */
+    color: black; /* Text color for the tabs */
+    font-size: 1rem; /* Font size for the tabs */
+    padding-bottom: 0.5rem; /* Padding to space the text from the underline */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .category-tabs ul li a:hover{
+    border-bottom: 2px solid blue; /* Bottom border to indicate the active/hover state */
+  }
+  
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 20px;
+    
+  }
+  .product{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .product-aoc{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width:50%;
+    text-decoration: none;
+  }
+  .product img {
+    width: 10%; /* This will make sure the image is not wider than the container */
+    height: 50%; /* This will maintain the aspect ratio of the image */
+    display: block; /* This removes any extra space below the image */
+    margin: 0 auto; /* This will center the image in the container */
+    
+  }
+  .price {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .description {
+    margin: 10px 0;
+  }
+
+  .lcd{
+    width:50%;
+    height:50%;
+  }
+
+
+
+  .footer {
+    position: absolute;
+    width: 100%;
+    margin-top:120%;
+    background: #3A3F41;
+    color:white;
+    text-align: center;
+  }
